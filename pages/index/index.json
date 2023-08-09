@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "cover": "/components/cover/cover",
+    "work": "/components/work/work",
+    "info": "/components/info/info",
+    "project": "/components/project/project",
+    "desc": "/components/desc/desc"
+  }
+}

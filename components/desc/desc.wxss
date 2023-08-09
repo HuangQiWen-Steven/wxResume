@@ -1,0 +1,53 @@
+/* components/desc/desc.wxss */
+.resume{
+  margin: 0 20px;
+}
+.section{
+  padding-bottom: 30px;
+}
+.section-info{
+  display: flex;
+  padding-bottom: 5px;
+  margin: 10px 0;
+  border-bottom: 1px solid #333;
+}
+.section-seq{
+  margin-right: 10px;
+  background-color: #444;
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.section-title{
+  font-size: 20px;
+}
+.icon-computer{
+  width: 26px;
+  height: 26px;
+  vertical-align: -6px;
+  margin-right: 5px;
+}
+
+.introduction{
+  border-bottom: dashed 1px #999;
+  padding: 10px 0;
+}
+
+.introduction:last-of-type{
+  border-bottom: none;
+}
+.desc{
+  color: #999;
+  line-height: 1.5;
+}
+.page{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 15px;
+}

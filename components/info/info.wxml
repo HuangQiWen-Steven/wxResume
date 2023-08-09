@@ -1,0 +1,60 @@
+<!--components/info/info.wxml-->
+<view class="resume">
+  <view class="section">
+    <view class="section-info">
+      <view class="section-seq">1</view>
+      <text class="section-title">基本资料</text>
+    </view>
+    <view class="column col-2">
+      <text class="info">姓名：{{name}}</text>
+      <text class="info">电话：{{tel}}</text>
+    </view>
+    <view class="column col-2">
+      <text class="info">性别：{{sex}}</text>
+      <text class="info">年龄：{{age}}</text>
+    </view>
+    <view class="column col-1">
+      <text class="info">邮箱：{{email}}</text>
+    </view>
+    <view class="column col-1">
+      <text class="info">个人博客：{{blog}}</text>
+    </view>
+  </view>
+  <view class="section">
+    <view class="section-info">
+      <view class="section-seq">2</view>
+      <text class="section-title">主要技能</text>
+    </view>
+    <view class="skill"  wx:for="{{skill}}" wx:key='item'>
+      <text class="skill-name">{{item.name}}</text>
+      <!-- <progress class="progress" percent="{{item.percent}}" stroke-width="5"></progress> -->
+      <view class="cu-progress round sm striped active">
+        <view class="{{item.color}}" style="width:{{item.percent}}%"></view>
+      </view>
+    </view>
+  </view>
+  <view class="section">
+    <view class="section-info">
+      <view class="section-seq">3</view>
+      <text class="section-title">教育经历</text>
+    </view>
+    <view class="education" wx:for="{{education}}" wx:key="item">
+      <view class="school">
+        <image class="icon-school" src="../../img/school.png"></image>
+        <text>{{item.school}}</text>
+      </view>
+      <view class="row">
+        <view class="info">
+          <image class="icon-book" src="../../img/"></image>
+          <text>{{item.major}}</text>
+        </view>
+        <view class="info">
+          <image class="icon-calendar" src="../../img/dateList.png"></image>
+          <text>{{item.year}}</text>
+        </view> 
+      </view>
+      <rich-text class="desc">{{item.desc}}</rich-text>
+    </view>
+  </view>
+  <text class="page">1/4</text>
+</view>

@@ -1,0 +1,13 @@
+<!--components/desc/desc.wxml-->
+    <view class="resume">
+      <view class="section">
+        <view class="section-info">
+          <view class="section-seq">6</view>
+          <text class="section-title">个人简介</text>
+        </view>
+        <view class="introduction">
+          <rich-text class="desc">{{introduction}}</rich-text>
+        </view>
+      </view>
+      <text class="page">4/4</text>
+    </view>

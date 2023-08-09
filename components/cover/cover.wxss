@@ -1,0 +1,84 @@
+/* components/cover/cover.wxss */
+.photo{
+  display: block;
+  width: 90%;
+  margin:0 auto;
+  position: fixed;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.cover-info{
+  position: absolute;
+  left: 100rpx;
+  top: 60rpx
+}
+.cover-name{
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  letter-spacing: 1px;
+}
+.cover-spell{
+  font-size: 40rpx;
+  letter-spacing: 1px;
+}
+.big-circle{
+  background-color: rgba(0,165,34,0.7);
+  width: 520rpx;
+  height: 520rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: -150px;
+  top: 110px;
+}
+.medium-circle{  
+  background-color: rgba(0,165,34,0.7);
+  width: 320rpx;
+  height: 320rpx;
+  border-radius: 50%;
+  position: absolute;
+  right: -80px;
+  top: 110px;
+}
+
+.small-circle{
+  background-color: rgba(0,165,34,0.7);
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  bottom: 110px;
+}
+
+.cover-work{
+  width: 100%;
+  position: absolute;
+  bottom: 200px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.2);
+  padding: 20px 0;
+}
+.cover-job{
+  display: block;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.cover-exp{
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+.navigation{
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  font-size: 18px;
+}
+.arrow-right{
+  width: 20px;
+  height: 20px;
+  vertical-align: -5px;
+}

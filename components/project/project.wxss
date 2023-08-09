@@ -1,0 +1,60 @@
+/* components/project/project.wxss */
+.resume{
+  margin: 0 20px;
+}
+.section{
+  padding-bottom: 30px;
+}
+.section-info{
+  display: flex;
+  padding-bottom: 5px;
+  margin: 10px 0;
+  border-bottom: 1px solid #333;
+}
+.desc{
+  color: #999;
+  line-height: 1.5;
+  font-size: 14px;
+} 
+.section-seq{
+  margin-right: 10px;
+  background-color: #444;
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.section-title{
+  font-size: 20px;
+}
+.icon-computer{
+  width: 26px;
+  height: 26px;
+  vertical-align: -6px;
+  margin-right: 5px;
+}
+
+.project{
+  border-bottom: dashed 1px #999;
+  padding: 10px 0;
+}
+
+.project:last-of-type{
+  border-bottom: none;
+}
+
+.project-name{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.page{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 15px;
+}

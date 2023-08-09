@@ -1,0 +1,27 @@
+<!--components/work/work.wxml-->
+  <view class="resume">
+  <view class="section">
+    <view class="section-info">
+      <view class="section-seq">4</view>
+      <text class="section-title">学习经历</text>
+    </view>
+    <view class="work" wx:for="{{work}}" wx:key="item">
+      <view class="company">
+        <image class="icon-company" src="../../img/company.png"></image>
+        <text>{{item.company}}</text>
+      </view>
+      <view class="row">
+        <view class="info">
+          <image class="icon-job" src="../../img/job.png"></image>
+          <text>{{item.job}}</text>
+        </view>
+        <view class="info">
+          <image class="icon-calendar" src="../../img/dateList.png"></image>
+          <text>{{item.year}}</text>
+        </view> 
+      </view>
+      <rich-text class="desc">{{item.desc}}</rich-text>
+    </view>
+  </view>
+  <text class="page">2/4</text>
+</view>

@@ -1,0 +1,28 @@
+<swiper style='height:{{height}}px'>
+<!-- 封面部分 -->
+  <swiper-item>
+    <cover/>
+  </swiper-item>
+
+  <swiper-item>
+    <scroll-view scroll-y='true' style="width:{{width}}px;height:{{height}}px">
+      <info/>
+    </scroll-view>
+  </swiper-item>
+
+  <swiper-item>
+    <scroll-view scroll-y='true' style="width:{{width}}px;height:{{height}}px">
+      <work/>
+    </scroll-view>
+  </swiper-item> 
+
+  <swiper-item>
+    <project/>
+  </swiper-item>
+
+  <swiper-item>
+    <scroll-view>
+      <desc/>
+    </scroll-view>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,189 @@
+/* components/info/info.wxss */
+.resume{
+  margin: 0 20px;
+}
+.section{
+  padding-bottom: 30px;
+}
+.section-info{
+  display: flex;
+  padding-bottom: 5px;
+  margin: 10px 0;
+  border-bottom: 1px solid #333;
+}
+.section-seq{
+  margin-right: 10px;
+  background-color: #444;
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.section-title{
+  font-size: 20px;
+}
+.column{
+  font-size: 14px;
+  border-bottom: dashed 1px #333;
+  padding: 10px 0;
+}
+.col-2{
+  column-count: 2;
+}
+.col-1{
+  column-count: 1;
+}
+.info{
+  display: block;
+}
+.skill{
+  padding: 5px 0;
+}
+.skill-name{
+  font-size: 15px;
+  display: block;
+  margin-bottom: 5px;
+}
+.education{
+  border-bottom: dashed 1px #999;
+  padding: 10px 0;
+}
+.education:last-of-type{
+  border-bottom: none;
+}
+.school{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.icon-school{
+  width: 26px;
+  height: 26px;
+  vertical-align: -6px;
+  margin-right: 5px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.info{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.icon-book{
+  width: 16px;
+  height: 16px;
+  vertical-align: -2px;
+  margin-right: 3px;
+}
+
+.icon-calendar{
+  width: 17px;
+  height: 17px;
+  vertical-align: -2px;
+  margin-right: 3px;
+}
+.desc{
+  color: #999;
+  line-height: 1.5;
+}
+.page{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+/*进度条*/
+/*=====================*/
+.cu-progress {
+	overflow: hidden;
+	height: 28rpx;
+	background-color: #ebeef5;
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+}
+
+.cu-progress+view,
+.cu-progress+text {
+	line-height: 1;
+}
+
+.cu-progress.xs {
+	height: 10rpx;
+}
+
+.cu-progress.sm {
+	height: 20rpx;
+}
+
+.cu-progress view {
+	width: 0;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-items: flex-end;
+	justify-content: space-around;
+	font-size: 20rpx;
+	color: var(--white);
+	transition: width 0.6s ease;
+}
+
+.cu-progress text {
+	align-items: center;
+	display: flex;
+	font-size: 20rpx;
+	color: var(--black);
+	text-indent: 10rpx;
+}
+
+.cu-progress.text-progress {
+	padding-right: 60rpx;
+}
+
+.cu-progress.striped view {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-size: 72rpx 72rpx;
+}
+
+.cu-progress.active view {
+	animation: progress-stripes 2s linear infinite;
+}
+
+@keyframes progress-stripes {
+	from {
+		background-position: 72rpx 0;
+	}
+
+	to {
+		background-position: 0 0;
+	}
+}
+
+/*背景颜色*/
+.bg-green{
+  background-color: #8dc63f;
+  color: white;
+}
+.bg-orange{
+  background-color: #f37b1d;
+  color: white;
+}
+
+.bg-blue{
+  background-color: #0081ff;
+  color: white;
+}
+.bg-yellow{
+  background-color: #fbbd08;
+  color: white;
+}
+
+.bg-purple{
+  background-color: #6739b6;
+  color: white;
+}
